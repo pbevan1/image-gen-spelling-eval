@@ -1,5 +1,5 @@
 # Outputs
-outputs/*responses.csv
+outputs/responses/*.csv
 
 # Images
 *jpg

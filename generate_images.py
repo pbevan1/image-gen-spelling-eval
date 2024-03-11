@@ -33,7 +33,7 @@ def generate_images(args):
         print(f"Generating images for model: {model_name}")
         type_count = defaultdict(int)
         # Define a directory where you want to save the images
-        output_dir = f"generated_images/{model_name}"
+        output_dir = f"outputs/generated_images/{model_name}"
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
         model = imagen_hub.load(model_name)
@@ -45,7 +45,7 @@ def generate_images(args):
             prompt = data["prompt"] + instruction
             target_txt = data["quoted_text"]
             filename = f"{model_name}_generated_image_{task_type}_{i}.png"
-            filepath = f"generated_images/{model_name}/{filename}"
+            filepath = f"outputs/generated_images/{model_name}/{filename}"
 
             if not os.path.exists(filepath):
                 output = model.infer_one_image(prompt=prompt, seed=42).resize((512,512))
@@ -61,7 +61,7 @@ def generate_images(args):
             responses.append({'image_filepath': image_filepath, 'model': model_name, 'task': task_type, 'target': target_txt, 'generated': generated_txt, 'score': spelling_score})
             
         responses_df = pd.DataFrame(responses)
-        responses_df.to_csv(f"outputs/{model_name}_responses.csv", index=False)
+        responses_df.to_csv(f"outputs/responses/{model_name}_responses.csv", index=False)
 
 
 if __name__ == '__main__':

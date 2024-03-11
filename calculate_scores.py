@@ -8,7 +8,7 @@ def calculate_scores(args):
     all_responses = []
     # Loop through each model's responses file and append to a single DataFrame
     for model_name in args.model_list:
-        filepath = f"outputs/{model_name}_responses.csv"
+        filepath = f"outputs/responses/{model_name}_responses.csv"
         if os.path.exists(filepath):
             model_responses = pd.read_csv(filepath)
             all_responses.append(model_responses)
