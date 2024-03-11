@@ -161,8 +161,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-openai.env
-hf.env
 
 # Spyder project settings
 .spyderproject

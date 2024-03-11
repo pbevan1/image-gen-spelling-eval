@@ -7,9 +7,11 @@ import torch as th
 from filelock import FileLock
 from tqdm.auto import tqdm
 
-from diffusers.utils import (
-    DIFFUSERS_CACHE
-)
+# from diffusers.utils import (
+#     DIFFUSERS_CACHE
+# )
+
+DIFFUSERS_CACHE = "cache/huggingface/diffusers/models"
 
 MODEL_PATHS = {
     # "base": "https://openaipublic.blob.core.windows.net/diffusion/dec-2021/base.pt",

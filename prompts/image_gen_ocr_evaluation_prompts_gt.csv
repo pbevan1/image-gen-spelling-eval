@@ -10,7 +10,7 @@ prompt,quoted_text,type
 "A birthday cake with ""Happy Birthday!"" written in colorful frosting.",Happy Birthday!,object
 "A pair of sunglasses with the word ""Sunshine"" etched on the lens.",Sunshine,object
 "A cushion with the words ""Queen of Hearts"" embroidered on it.",Queen of Hearts,object
-"A dog collar with the pet's name, ""Lucky"" engraved on a metal tag.",Lucky,object
+"A dog collar with the pet's name, ""Lucky,"" engraved on a metal tag.","Lucky,",object
 "A vibrant mural with the inspiring message ""Dream Big"" painted in large letters.",Dream Big,object
 "A weathered chalkboard with the math equation ""3 + 5 = 8"" written on it.",3 + 5 = 8,object
 "A smartphone screen displaying the text message ""Hello there!""",Hello there!,object
@@ -22,7 +22,7 @@ prompt,quoted_text,type
 "A necklace with a star-shaped pendant engraved with the word ""Wish"".",Wish,object
 "A stack of pancakes with the word ""Delicious!"" written in syrup.",Delicious!,object
 "A retro neon sign with the word ""Open"" flashing brightly.",Open,object
-"A handwritten note sating like ""apples”.",,object
+"A handwritten grocery list with items like ""apples,"" ""bananas,"" and ""yogurt.""","apples,",object
 "A child's drawing with the caption ""My House"" scrawled across the top.",My House,object
 "A photo of a graduation cap with the year ""2024"" printed on a tassel.",2024,object
 "A baseball cap with the word ""Play Ball!"" embroidered on it.",Play Ball!,object
@@ -37,7 +37,7 @@ prompt,quoted_text,type
 "A sandwich with the word ""Yummy!"" written in ketchup.",Yummy!,object
 "A tool with the word ""Build"" clearly stamped on it.",Build,object
 "A prize ribbon with the words ""Winner"" prominently displayed.",Winner,object
-"A scrap of paper that says ""Hello Friend""",Hello Friend,object
+"A scrap of paper that says ""Hello Friend,""","Hello Friend,",object
 "A flag with the word ""Peace"" and a symbol of a dove.",Peace,object
 "A sports jersey with the word ""Champion"" on the back.",Champion,object
 "A menu with the heading ""Today's Specials"".",Today's Specials,object
@@ -299,3 +299,103 @@ prompt,quoted_text,type
 "A macro photo of a dandelion puff with the word ""Wish"" visible among its delicate seeds.",Wish,natural
 "A photo of a vibrant green cactus with the word ""Resist"" subtly formed by its spines.",Resist,natural
 "A photo of a lush meadow with a winding path etched into the grass, subtly forming the word ""Explore"".",Explore,natural
+"A vintage postcard with the message: ""Dearest Emily, the ocean breeze and warm sunshine fill my days with joy. Love always, Sarah.""","Dearest Emily, the ocean breeze and warm sunshine fill my days with joy. Love always, Sarah.",long
+"A handwritten love letter with the declaration: ""Your smile lights up my world, and your laughter fills my heart with song.""","Your smile lights up my world, and your laughter fills my heart with song.",long
+"A diary entry: ""Today, I dared to dream. It started as a whisper, a flicker of hope, but now it burns within me.""","Today, I dared to dream. It started as a whisper, a flicker of hope, but now it burns within me.",long
+"A nostalgic billboard advertising a diner with the message: ""Home-cooked meals, friendly faces, and the best pie in town.""","Home-cooked meals, friendly faces, and the best pie in town.",long
+"A chalkboard sign outside a bookstore: ""A book is a dream you hold in your hand. Open one today and let your imagination take flight.""",A book is a dream you hold in your hand. Open one today and let your imagination take flight.,long
+"A mural painted on the side of a building with a message: ""Be the change you wish to see in the world. Your voice has power.""",Be the change you wish to see in the world. Your voice has power.,long
+"A handwritten sign taped to a lamppost advertising a lost pet: ""Missing: Our beloved cat, Max. He's a fluffy ginger tabby with big green eyes.""","Missing: Our beloved cat, Max. He's a fluffy ginger tabby with big green eyes.",long
+"A faded treasure map with clues and directions: ""Follow the winding path, past the gnarled oak, X marks the spot where riches await.""","Follow the winding path, past the gnarled oak, X marks the spot where riches await.",long
+"A field guide page for birdwatching description: ""The Northern Cardinal –  its cheerful song a reminder of warmer days to come.""",The Northern Cardinal –  its cheerful song a reminder of warmer days to come.,long
+"A poster displayed in a yoga studio with a quote: ""Breathe in the present moment. Find peace within the stillness of your heart.""",Breathe in the present moment. Find peace within the stillness of your heart.,long
+"A personalized birthday banner strung across a backyard: ""Happy 30th! Over the hill and picking up speed – cheers to the best years yet!""",Happy 30th! Over the hill and picking up speed – cheers to the best years yet!,long
+"A cartoon drawing of a cat chasing a laser pointer with the caption: ""The daily struggle is real. Why must the red dot always disappear?""",The daily struggle is real. Why must the red dot always disappear?,long
+"A decorative welcome mat with a witty greeting: ""Come in, make yourself at home... just kidding, please clean up after yourself.""","Come in, make yourself at home... just kidding, please clean up after yourself.",long
+"A vintage wooden sign found in a barn: ""Gather fresh eggs daily. Feed chickens twice a day. Water horses before sunset.""",Gather fresh eggs daily. Feed chickens twice a day. Water horses before sunset.,long
+"A close-up of a knitted scarf with a tag displaying the care instructions: ""Hand wash cold. Lay flat to dry. Made with love.""",Hand wash cold. Lay flat to dry. Made with love.,long
+"A photograph of an old typewriter with a letter inserted: ""Dearest Margaret, I find myself longing for your company on this quiet afternoon.""","Dearest Margaret, I find myself longing for your company on this quiet afternoon.",long
+"A motivational poster displayed in a gym with bold, capitalized text: ""Sweat now, shine later. Push your limits. You got this!""","Sweat now, shine later. Push your limits. You got this!",long
+"A kitchen towel embroidered with a recipe for making lemonade: ""Fresh lemons, sugar, water, ice. Mix, chill, and enjoy a taste of summer.""","Fresh lemons, sugar, water, ice. Mix, chill, and enjoy a taste of summer.",long
+"A birthday card with a heartfelt, handwritten message inside: ""Wishing you a year filled with happiness and laughter. Happy Birthday!""",Wishing you a year filled with happiness and laughter. Happy Birthday!,long
+"A hand-painted wooden sign leaning against an old farmhouse reading: ""Fresh eggs for sale. $5 per dozen. Honesty box by the gate.""",Fresh eggs for sale. $5 per dozen. Honesty box by the gate.,long
+"A close-up of a colorful tapestry with an embroidered proverb: ""Live in the sunshine, swim in the sea, drink the wild air.""","Live in the sunshine, swim in the sea, drink the wild air.",long
+"A macro shot of a bee collecting pollen with a label overlay: ""Pollinator at work. Essential for a healthy ecosystem. Protect our bees.""",Pollinator at work. Essential for a healthy ecosystem. Protect our bees.,long
+"A faded inscription carved into a tree trunk: ""AB + RM Forever. True love never fades. August 2005.""",AB + RM Forever. True love never fades. August 2005.,long
+"A photo of a well-worn leather journal with the first page inscription: ""My adventures begin here. Where will this journey take me?""",My adventures begin here. Where will this journey take me?,long
+"A handwritten to-do list on a crumpled paper: ""Call Mom. Pick up groceries. Finish project. Don't forget to breathe.""",Call Mom. Pick up groceries. Finish project. Don't forget to breathe.,long
+"A label on a medicine bottle with dosage instructions: ""For relief of pain, take two tablets every 4-6 hours. Do not exceed the recommended dose.""","For relief of pain, take two tablets every 4-6 hours. Do not exceed the recommended dose.",long
+"A photorealistic drawing of an unfurling rose with the text overlay: ""Bloom where you are planted. Embrace growth and transformation.""",Bloom where you are planted. Embrace growth and transformation.,long
+"A vintage poster advertising a magician's performance with the text: ""Prepare to be amazed! Witness the impossible! Illusions that will defy belief.""",Prepare to be amazed! Witness the impossible! Illusions that will defy belief.,long
+"A sign at a hiking trailhead with safety reminders: ""Pack plenty of water. Stay on marked trails. Leave no trace. Hike safe, enjoy the views!""","Pack plenty of water. Stay on marked trails. Leave no trace. Hike safe, enjoy the views!",long
+"A hand-lettered sign at a lemonade stand: ""Ice-cold lemonade! 50 cents a cup. Refreshment on a hot day!""",Ice-cold lemonade! 50 cents a cup. Refreshment on a hot day!,long
+"A photo of a weathered anchor with an inscription: ""Hope anchors the soul. Hold on tight, even in the stormiest seas.""","Hope anchors the soul. Hold on tight, even in the stormiest seas.",long
+"A personalized luggage tag with the owner's name and a quote: ""Sarah Johnson. The world is my oyster. Time to explore!""",Sarah Johnson. The world is my oyster. Time to explore!,long
+"A fortune cookie with the paper message unfolded: ""A smile is your passport into the hearts of others. Share yours today.""",A smile is your passport into the hearts of others. Share yours today.,long
+"A sticky note reminder stuck to a bathroom mirror: ""You are beautiful. You are strong. You are enough. Believe it!""",You are beautiful. You are strong. You are enough. Believe it!,long
+"A framed poem hanging on a wall: ""Take time to smell the roses. Life's greatest treasures are found in the moments that pass so slow.""",Take time to smell the roses. Life's greatest treasures are found in the moments that pass so slow.,long
+"A sign posted at a dog park with park rules: ""Leashes required. Clean up after your pet. Play nice and have fun!""",Leashes required. Clean up after your pet. Play nice and have fun!,long
+"A vintage postcard with a scenic view and a short note: ""Greetings from California! The beaches are amazing, wish you were here!""","Greetings from California! The beaches are amazing, wish you were here!",long
+"A rustic wooden bench with a carved inscription: ""Rest awhile, weary traveler. May your burdens be light and your heart find peace.""","Rest awhile, weary traveler. May your burdens be light and your heart find peace.",long
+"A ticket stub from a memorable concert with the band name and date: ""Epic night! The Rolling Stevens - Live. Unforgettable memories made.""",Epic night! The Rolling Stevens - Live. Unforgettable memories made.,long
+"A photo of a sandcastle with a flag bearing the builder's initials: ""King of the castle! Imagination built this. Beware of high tides.""",King of the castle! Imagination built this. Beware of high tides.,long
+"An inscription on a sundial: ""Time measured by sunlight. Moments fleeting, seasons change. Make the most of each day.""","Time measured by sunlight. Moments fleeting, seasons change. Make the most of each day.",long
+"A playful ransom note made from cut-out magazine letters: ""Your teddy bear is our prisoner! Leave 5 cookies by the tree or else....""",Your teddy bear is our prisoner! Leave 5 cookies by the tree or else....,long
+"A close-up of a knitting pattern with detailed instructions: ""Knit one, purl two. Repeat. Create something beautiful, stitch by stitch.""","Knit one, purl two. Repeat. Create something beautiful, stitch by stitch.",long
+"A personalized mug with a motivational message: ""Dream big. Work hard. Stay focused. Amazing things are possible.""",Dream big. Work hard. Stay focused. Amazing things are possible.,long
+"A sign outside a school's art room: ""Enter with an open mind. Leave with a creative heart. This is where magic happens.""",Enter with an open mind. Leave with a creative heart. This is where magic happens.,long
+"A photo of a well-worn passport filled with stamps from various countries: ""Adventure passport.  Evidence of a life well-traveled. Where to next?""",Adventure passport.  Evidence of a life well-traveled. Where to next?,long
+"A handwritten label on a jar of homemade jam: ""Strawberry Sunshine. Made with love, August 2023. Enjoy a taste of summer sweetness.""","Strawberry Sunshine. Made with love, August 2023. Enjoy a taste of summer sweetness.",long
+"A detailed map of a fantastical world with the caption: ""Explore the Enchanted Forest, climb Dragontooth Mountain, sail the Sea of Wonders.""","Explore the Enchanted Forest, climb Dragontooth Mountain, sail the Sea of Wonders.",long
+"A worn guitar case covered in stickers and a band logo: ""This machine makes music.  Six strings and a whole lot of dreams.""",This machine makes music.  Six strings and a whole lot of dreams.,long
+"A weathered postcard showcasing a classic car with the description: ""Vintage ride, timeless style. 1965 Mustang convertible - a dream on wheels.""","Vintage ride, timeless style. 1965 Mustang convertible - a dream on wheels.",long
+"A colorful poster for a school play: ""Curtain up! Romeo and Juliet - a captivating tale of love and tragedy.""",Curtain up! Romeo and Juliet - a captivating tale of love and tragedy.,long
+"A handwritten thank-you note expressing gratitude: ""Your kindness means the world to me. Thank you for your compassion and generosity.""",Your kindness means the world to me. Thank you for your compassion and generosity.,long
+"A photo of a cozy reading nook with a quote painted on the wall: ""Lose yourself in a good book. Discover new worlds, find unexpected magic.""","Lose yourself in a good book. Discover new worlds, find unexpected magic.",long
+"A handwritten sign for a garage sale with details and pricing: ""Treasures await! Everything must go. Sat 9am-2pm. Bargains galore!""",Treasures await! Everything must go. Sat 9am-2pm. Bargains galore!,long
+"A vintage travel poster promoting a seaside town with the slogan: ""Ocean breezes, sandy toes, where relaxation begins.""","Ocean breezes, sandy toes, where relaxation begins.",long
+"A framed motivational quote with an inspiring message: ""Don't count the days, make the days count. Embrace every moment.""","Don't count the days, make the days count. Embrace every moment.",long
+"A photo of a lush greenhouse with a label overlay: ""Tropical paradise found.  Delicate orchids, exotic ferns, a vibrant sanctuary.""","Tropical paradise found.  Delicate orchids, exotic ferns, a vibrant sanctuary.",long
+"A bookmark made from pressed flowers with a quote about nature: ""The Earth laughs in flowers. - Ralph Wallis. Witness the beauty.""",The Earth laughs in flowers. - Ralph Wallis. Witness the beauty.,long
+"A recipe card: ""Grandma's chocolate cake. Secret ingredient: extra love. Always a family favorite.""",Grandma's chocolate cake. Secret ingredient: extra love. Always a family favorite.,long
+"A decorative throw pillow with an embroidered word or phrase: ""Namaste. Finding peace and stillness within.""",Namaste. Finding peace and stillness within.,long
+"A faded movie poster for a classic film with the iconic title and actors: ""Casablanca.  A timeless love story. 'Here's looking at you, kid.'""","Casablanca.  A timeless love story. 'Here's looking at you, kid.'",long
+"A handwritten label on a bottle of homemade hot sauce with a warning: ""Caution: Extra spicy! A little goes a long way. Handle with care.""",Caution: Extra spicy! A little goes a long way. Handle with care.,long
+"A colorful sticker collection on a suitcase showcasing visited destinations: ""London, Paris, Tokyo, Bali... More adventures await!""","London, Paris, Tokyo, Bali... More adventures await!",long
+"A close-up photo of a seashell with the ocean waves visible in the background: ""Treasures from the deep. Whispers of the sea carried within.""",Treasures from the deep. Whispers of the sea carried within.,long
+"A neon sign displaying a playful quote or joke: ""Life is short. Smile while you still have teeth. Laughter is the best medicine.""",Life is short. Smile while you still have teeth. Laughter is the best medicine.,long
+"A photo of a starry night sky with a constellation labeled: ""Orion's Belt. Finding guidance in the vastness of space.""",Orion's Belt. Finding guidance in the vastness of space.,long
+"A personalized phone case with a cherished photo and caption: ""Family is everything. Moments together captured in time.""",Family is everything. Moments together captured in time.,long
+"A hand-painted welcome sign with bright colors and the words: ""Hello! Embrace joy, kindness, and good vibes within.""","Hello! Embrace joy, kindness, and good vibes within.",long
+"A framed collection of pressed leaves with the caption: ""Autumn's beauty preserved. Exploring the natural world.""",Autumn's beauty preserved. Exploring the natural world.,long
+"A vibrant graffiti mural with an artistic message or imagery: ""Art speaks when words fail. Color your world with creativity.""",Art speaks when words fail. Color your world with creativity.,long
+"A photo of a sunrise with a short poem describing the scene: ""A new dawn awakens, colors paint the sky, endless possibilities lie ahead.""","A new dawn awakens, colors paint the sky, endless possibilities lie ahead.",long
+"A humorous sticker for a laptop depicting a sloth: ""Procrastination mode activated. Moving slowly, achieving little. Hang in there!""","Procrastination mode activated. Moving slowly, achieving little. Hang in there!",long
+"A hand-painted sign at a community garden with a cheerful message: ""Grow food, grow friendships. Welcome to our green oasis!""","Grow food, grow friendships. Welcome to our green oasis!",long
+"A faded label on a small glass bottle found washed ashore: ""Message in a bottle. If found, please send to...""","Message in a bottle. If found, please send to...",long
+"A neon sign buzzing with an open invitation: ""Good vibes only. Come as you are, all are welcome here.""","Good vibes only. Come as you are, all are welcome here.",long
+"A handwritten recipe taped to the inside of a kitchen cabinet door: ""Grandma's secret ingredient. A pinch of love in every dish.""",Grandma's secret ingredient. A pinch of love in every dish.,long
+"A fortune cookie paper unfolded with a wise message: ""The best time to plant a tree was 20 years ago. The second best time is now.""",The best time to plant a tree was 20 years ago. The second best time is now.,long
+"A motivational poster featuring a breathtaking mountain vista: ""Keep climbing. The view from the top is worth the effort.""",Keep climbing. The view from the top is worth the effort.,long
+"A sticker slapped on a skateboard emblazoned with a rebellious slogan: ""Question everything. Break the rules. Live on your own terms.""",Question everything. Break the rules. Live on your own terms.,long
+"A close-up of an embroidered sampler with a timeless adage: ""Home is where the heart is. Cherish those you love.""",Home is where the heart is. Cherish those you love.,long
+"A photorealistic graffiti artwork with a powerful social message: ""Equality for all. One love, one world. Spread kindness.""","Equality for all. One love, one world. Spread kindness.",long
+"A photo of an antique locket with an inscription on the inside: ""Forever and always. My heart belongs to you.""",Forever and always. My heart belongs to you.,long
+"A handwritten note taped to a bouquet of flowers: ""Just because. Thinking of you and sending smiles your way.""",Just because. Thinking of you and sending smiles your way.,long
+"A bookmark with a pressed flower and an inspirational quote: ""Bloom where you are planted. Embrace your unique beauty.""",Bloom where you are planted. Embrace your unique beauty.,long
+"A t-shirt printed with the text: ""Rock 'n' Roll lives on! Legends never die.""",Rock 'n' Roll lives on! Legends never die.,long
+"A hand-painted sign hung above a bakery's display case: ""Freshly baked treats. Made with love, guaranteed to sweeten your day.""","Freshly baked treats. Made with love, guaranteed to sweeten your day.",long
+"A poster collage showcasing a musician's iconic album covers: ""The soundtrack of a generation. Music that shaped history.""",The soundtrack of a generation. Music that shaped history.,long
+"A vintage letter opener with an ornately carved handle: ""Opening possibilities. Unlocking secrets, one letter at a time.""","Opening possibilities. Unlocking secrets, one letter at a time.",long
+"A handwritten note left on a park bench: ""You are stronger than you think. Believe in yourself, your dreams are within reach.""","You are stronger than you think. Believe in yourself, your dreams are within reach.",long
+"A brightly colored festival flag billowing in the wind: ""Celebrate life! Music, laughter, and good times with great people.""","Celebrate life! Music, laughter, and good times with great people.",long
+"A custom phone case printed with a meaningful quote: ""She believed she could, so she did. Unstoppable determination.""","She believed she could, so she did. Unstoppable determination.",long
+"A dog tag etched with a lost pet's name and contact information: ""Buddy - If found, please call 555-1234. Desperately missed.""","Buddy - If found, please call 555-1234. Desperately missed.",long
+"A weathered sign pointing towards a scenic overlook: ""Breathtaking views ahead! Take a moment, soak it all in.""","Breathtaking views ahead! Take a moment, soak it all in.",long
+"A restaurant menu with tantalizing descriptions of signature dishes: ""Taste the flavors. Culinary creations that delight the senses.""",Taste the flavors. Culinary creations that delight the senses.,long
+"A welcome sign crafted from seashells found on the beach: ""Seas the day! Relax and unwind, ocean air soothes the soul.""","Seas the day! Relax and unwind, ocean air soothes the soul.",long
+"A photo of a child's drawing of their family, with the caption: ""Home is where the love is. Pure joy captured in crayon.""",Home is where the love is. Pure joy captured in crayon.,long
+"A poster advertising a summer carnival with vibrant colors: ""Step right up! Thrills, chills, and cotton candy delights await.""","Step right up! Thrills, chills, and cotton candy delights await.",long
+"A handwritten label on a homemade jar of jam: ""Strawberry sunshine. Made with summer sweetness and love.""",Strawberry sunshine. Made with summer sweetness and love.,long
+"A birthday card filled with well wishes and confetti: ""Happy Birthday! Celebrate you, this is your day to sparkle.""","Happy Birthday! Celebrate you, this is your day to sparkle.",long
+"A framed nautical chart with the directions and coordinates: ""Follow the marked channel. Beware of shallow waters. North: 0 degrees.""",Follow the marked channel. Beware of shallow waters. North: 0 degrees.,long

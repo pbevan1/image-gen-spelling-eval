@@ -45,3 +45,6 @@ openai
 nltk~=3.8.1
 krippendorff
 statsmodels
+paddlepaddle
+paddleocr
+Levenshtein

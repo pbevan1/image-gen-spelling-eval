@@ -11,9 +11,11 @@ from ..CLIP import clip
 from ..util.util import compose_text_with_templates
 
 
-from diffusers.utils import (
-    DIFFUSERS_CACHE
-)
+# from diffusers.utils import (
+#     DIFFUSERS_CACHE
+# )
+
+DIFFUSERS_CACHE = "cache/huggingface/diffusers/models"
 
 @lru_cache()
 def default_cache_dir() -> str:

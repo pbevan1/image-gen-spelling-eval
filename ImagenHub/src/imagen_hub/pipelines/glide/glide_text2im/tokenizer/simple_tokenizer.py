@@ -16,9 +16,11 @@ from filelock import FileLock
 from tqdm.auto import tqdm
 
 
-from diffusers.utils import (
-    DIFFUSERS_CACHE
-)
+# from diffusers.utils import (
+#     DIFFUSERS_CACHE
+# )
+
+DIFFUSERS_CACHE = "cache/huggingface/diffusers/models"
 
 BPE_URL = "https://github.com/openai/CLIP/raw/main/clip/bpe_simple_vocab_16e6.txt.gz"
 

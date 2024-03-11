@@ -38,14 +38,13 @@ class DALLE2(DALLE):
         """
 
         try:
-            client = openai.OpenAI()
-            response = client.images.generate(
+            response = openai.Image.create(
                 model="dall-e-2",
                 prompt=prompt,
                 n=1,
                 size="512x512",
             )
-            image_url = response.data[0].url
+            image_url = response['data'][0]['url']
             image = load_image(image_url)
         except openai.error.OpenAIError as e:
             print(e.http_status)
@@ -73,8 +72,7 @@ class DALLE3(DALLE):
             PIL.Image.Image: The inferred image.
         """
         try:
-            client = openai.OpenAI()
-            response = client.images.generate(
+            response = openai.Image.create(
                 model="dall-e-3",
                 prompt=prompt,
                 size="1024x1024",
