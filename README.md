@@ -11,12 +11,10 @@
 
 ---
 
-This is a POC that calculates the normalised Levenshtein distance between prompted text and the text present in the generated image (as recognised by OCR). Works for any text to image system.
+This is a POC that calculates the normalised Levenshtein similarity between prompted text and the text present in the generated image (as recognised by OCR).
 
-To create a metric, we could create a dataset of prompts, each instructing to include some text in the image. We would also provide a column for ground truth generated text which contains only the instructed text. For each model to be evaluated, each of the prompts can be used to generate one or more images. The below script is then run on the generated images, comparing the target text with the actual text, outputting a score. This score is then averaged to give a benchmark score.
+To us this to create a metric, we create a dataset of prompts, each instructing to include some text in the image. We also provide a column for ground truth generated text which contains only the instructed text. The below scorer is then run on the generated images, comparing the target text with the actual text, outputting a score. The scores are then averaged to give a benchmark score. A score of 1 indicates a perfect match to the text.
 
-The dataset of prompts can be generated with by providing a template to an LLM and having it generate prompts.
+You can find the dataset at https://huggingface.co/datasets/pbevan11/image_gen_ocr_evaluation_data
 
-**Note**: this is a distance metric, so 0 means the text is identical. We can also convert to a similarity with *1-distance*.
-
-Currently I don't think there are any metrics that directly measure the text output of text-img generative models. Since this metric solely looks at text within the generated images and not image quality as a whole, this metric should be used alongside other benchmarks such as those in https://karine-h.github.io/T2I-CompBench/.
+Since this metric solely looks at text within the generated images and not image quality as a whole, this metric should be used alongside other benchmarks such as those in https://karine-h.github.io/T2I-CompBench/.
