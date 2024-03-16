@@ -1,5 +1,6 @@
 # Outputs
 outputs/responses/*.csv
+hf.env
 
 # Images
 *jpg
