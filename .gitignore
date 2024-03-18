@@ -1,9 +1,10 @@
 # Outputs
 outputs/responses/*.csv
+outputs/generated_images/
 hf.env
 
 # Images
-*jpg
+# *jpg
 *png
 
 # Src
@@ -14,7 +15,8 @@ keys/*
 temp/*
 
 # models from metrics
-eval/models/ 
+eval/models/
+cache/
 
 
 # Logging
