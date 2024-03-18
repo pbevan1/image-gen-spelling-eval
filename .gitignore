@@ -4,8 +4,8 @@ outputs/generated_images/
 hf.env
 
 # Images
-# *jpg
-*png
+*jpg
+# *png
 
 # Src
 env_cfg/src
