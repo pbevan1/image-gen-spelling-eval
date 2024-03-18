@@ -18,3 +18,7 @@ To us this to create a metric, we create a dataset of prompts, each instructing 
 You can find the dataset at https://huggingface.co/datasets/pbevan11/image_gen_ocr_evaluation_data
 
 Since this metric solely looks at text within the generated images and not image quality as a whole, this metric should be used alongside other benchmarks such as those in https://karine-h.github.io/T2I-CompBench/.
+
+Preliminary results for some of the main models below:
+
+![Image generation model spelling comparison](examples/model_comparison.png)
