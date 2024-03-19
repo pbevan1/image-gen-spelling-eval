@@ -10,7 +10,6 @@
 </a>
 
 ---
----
 *Table 1: Normalised Levenshtein similarity scores between instructed text and text present in image (as identified by OCR)*
 
 | Model | object | signage | natural | long | Overall |
