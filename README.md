@@ -37,6 +37,7 @@ Since this metric solely looks at text within the generated images and not image
 
 ![Image generation model spelling comparison](examples/model_comparison.png)
 
+
 ```
 @misc{image-gen-ocr-eval,
   title = {image_gen_ocr_eval},
