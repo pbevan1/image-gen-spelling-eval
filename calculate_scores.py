@@ -42,6 +42,7 @@ def calculate_scores(args):
     df = pd.DataFrame.from_dict(data_for_df, orient='index')
     df.reset_index(inplace=True)
     df.rename(columns={'index': 'Model'}, inplace=True)
+    df.sort_values(by=['Overall'], inplace=True, ascending=False)
     df.to_csv("outputs/final_scores.csv", index=False)
     print(df)
 
