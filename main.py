@@ -2,6 +2,10 @@ import logging
 from huggingface_hub import login
 from imagen_hub.utils.file_helper import get_file_path, read_key_from_file
 
+from arguments import parse_args
+from generate_images import generate_images
+from calculate_scores import calculate_scores
+
 
 def main(args):
     generate_images(args)

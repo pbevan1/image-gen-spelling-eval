@@ -1,7 +1,9 @@
 extract_quoted_text.py
+*.short_caption
 
 # Outputs
 outputs/responses/*.csv
+outputs/models/*
 outputs/generated_images/
 hf.env
 

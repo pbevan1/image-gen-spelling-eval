@@ -3,7 +3,10 @@ import pandas as pd
 import time
 from collections import defaultdict
 import imagen_hub
+from huggingface_hub import login
+import logging
 from imagen_hub.utils import save_pil_image, get_concat_pil_images
+from imagen_hub.utils.file_helper import get_file_path, read_key_from_file
 
 from imagen_hub.loader.infer_dummy import load_ocr_eval
 from scorer import calculate_text_similarity
@@ -22,7 +25,7 @@ def generate_images(args):
                 filtered_test_data.append(item)
                 type_counter[item['type']] += 1
 
-    instruction = """ All text is clearly visible on one line. \
+    instruction = """All text is clearly visible on one line. \
     Only quoted text is present in image and only appears once. \
     All text is roughly horizontal and easily readable."""
 
@@ -58,7 +61,7 @@ def generate_images(args):
 
             spelling_score, generated_txt = calculate_text_similarity(filepath, target_txt)
             scores[model_name][task_type].append(spelling_score)
-            responses.append({'image_filepath': image_filepath, 'model': model_name, 'task': task_type, 'target': target_txt, 'generated': generated_txt, 'score': spelling_score})
+            responses.append({'image_filepath': filename, 'model': model_name, 'task': task_type, 'target': target_txt, 'generated': generated_txt, 'score': spelling_score})
             
         responses_df = pd.DataFrame(responses)
         responses_df.to_csv(f"outputs/responses/{model_name}_responses.csv", index=False)
