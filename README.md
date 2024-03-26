@@ -10,6 +10,63 @@
 </a>
 
 ---
+
+## Overview
+
+This evaluation is used to measure the text output quality of image generation models such as DALLE and Stable Diffusion. The metric calculates the normalised Levenshtein similarity between prompted text and the text present in the generated image (as recognised by OCR).
+
+We present a dataset of 400 prompts, each instructing to include some text in the image. There are 4 categories with 100 prompts in each:
+
+* Objects
+* Signage
+* Natural
+* Long
+
+We provide the ground truth generated text in the dataset. Following generation on the prompt dataset, the scorer is run on the generated images, comparing the target text with the actual text, and outputting a score between 0 and 1. The scores are then averaged to give a benchmark score for each model. A score of 1 indicates a perfect match to the text in every instance.
+
+You can find the dataset at https://huggingface.co/datasets/pbevan11/image-gen-spelling-eval-data
+
+Since this metric solely looks at text within the generated images and not image quality as a whole, this metric should be used alongside other benchmarks such as those in https://karine-h.github.io/T2I-CompBench/.
+
+## Install
+
+To clone the project and install dependencies:
+
+```bash
+git clone https://github.com/pbevan1/image-gen-spelling-eval
+cd image-gen-spelling-eval
+pip install requirements.txt
+```
+
+## Basic Usage
+
+To generate images and score models:
+
+```bash
+python main.py
+```
+
+To generate images only:
+
+```bash
+python generate_images.py
+```
+
+To calculate average scores from responses:
+
+```bash
+python calculate_scores.py
+```
+
+The below arguments can be appended:
+
+`--model_list`: Defines the models to be tested (models must also be defined in the ImagenHub code to work).
+
+`--num_samples_each_type`: Defines the number of images to generate and test from each prompt type.
+
+`--DEBUG`: If set to True, generates and evaluates only one image per model.
+
+---
 *Table 1: Normalised Levenshtein similarity scores between instructed text and text present in image (as identified by OCR)*
 
 | Model | object | signage | natural | long | Overall |
@@ -23,18 +80,6 @@
 | PlayGroundV2 | 0.19 | 0.23 | 0.17 | 0.2 | 0.2 |
 | Wuerstchen | 0.14 | 0.19 | 0.19 | 0.19 | 0.18 |
 | Kandinsky | 0.13 | 0.2 | 0.18 | 0.17 | 0.17 |
-
----
-
-This is a POC that calculates the normalised Levenshtein similarity between prompted text and the text present in the generated image (as recognised by OCR).
-
-To us this to create a metric, we create a dataset of prompts, each instructing to include some text in the image. We also provide a column for ground truth generated text which contains only the instructed text. The below scorer is then run on the generated images, comparing the target text with the actual text, outputting a score. The scores are then averaged to give a benchmark score. A score of 1 indicates a perfect match to the text.
-
-You can find the dataset at https://huggingface.co/datasets/pbevan11/image_gen_ocr_evaluation_data
-
-Since this metric solely looks at text within the generated images and not image quality as a whole, this metric should be used alongside other benchmarks such as those in https://karine-h.github.io/T2I-CompBench/.
-
----
 
 ![Image generation model spelling comparison](examples/model_comparison.png)
 
