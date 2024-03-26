@@ -22,6 +22,8 @@ We present a dataset of 400 prompts, each instructing to include some text in th
 * Natural
 * Long
 
+The default is to use the first 50 of these prompts from each category for each model (200 total).
+
 We provide the ground truth generated text in the dataset. Following generation on the prompt dataset, the scorer is run on the generated images, comparing the target text with the actual text, and outputting a score between 0 and 1. The scores are then averaged to give a benchmark score for each model. A score of 1 indicates a perfect match to the text in every instance.
 
 You can find the dataset at https://huggingface.co/datasets/pbevan11/image-gen-spelling-eval-data
@@ -62,7 +64,7 @@ The below arguments can be appended:
 
 `--model_list`: Defines the models to be tested (models must also be defined in the ImagenHub code to work).
 
-`--num_samples_each_type`: Defines the number of images to generate and test from each prompt type.
+`--num_samples_each_type`: Defines the number of images to generate and test from each prompt type. The default is 50.
 
 `--DEBUG`: If set to True, generates and evaluates only one image per model.
 
