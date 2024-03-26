@@ -1,5 +1,5 @@
 
-# image_gen_ocr_eval
+# image-gen-spelling-eval
 
 **Author:** Peter J. Bevan
 
