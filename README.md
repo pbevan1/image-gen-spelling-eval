@@ -15,7 +15,7 @@
 
 This evaluation is used to measure the text output quality of image generation models such as DALLE and Stable Diffusion. The metric calculates the normalised Levenshtein similarity between prompted text and the text present in the generated image (as recognised by OCR).
 
-We present a dataset of 400 prompts, each instructing to include some text in the image. There are 4 categories with 100 prompts in each:
+We present a dataset of 400 prompts, each instructing to include some text in the image. There are 4 categories with 50 prompts in each:
 
 * Objects
 * Signage
