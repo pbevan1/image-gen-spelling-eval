@@ -64,8 +64,6 @@ The below arguments can be appended:
 
 `--model_list`: Defines the models to be tested (models must also be defined in the ImagenHub code to work).
 
-`--num_samples_each_type`: Defines the number of images to generate and test from each prompt type. The default is 50.
-
 `--DEBUG`: If set to True, generates and evaluates only one image per model.
 
 ---

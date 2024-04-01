@@ -21,9 +21,8 @@ def generate_images(args):
         filtered_test_data = []
         type_counter = defaultdict(int)
         for item in test_data:
-            if type_counter[item['type']] < args.num_samples_each_type:
-                filtered_test_data.append(item)
-                type_counter[item['type']] += 1
+            filtered_test_data.append(item)
+            type_counter[item['type']] += 1
 
     instruction = """All text is clearly visible on one line. \
     Only quoted text is present in image and only appears once. \
@@ -42,8 +41,6 @@ def generate_images(args):
         model = imagen_hub.load(model_name)
         for i, data in enumerate(filtered_test_data):
             task_type = data['type']
-            # if type_count[task_type] < args.num_samples_each_type:
-                # Increment the count for this type
             type_count[task_type] += 1
             prompt = data["prompt"] + instruction
             target_txt = data["quoted_text"]
