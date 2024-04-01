@@ -26,7 +26,7 @@ The default is to use the first 50 of these prompts from each category for each 
 
 We provide the ground truth generated text in the dataset. Following generation on the prompt dataset, the scorer is run on the generated images, comparing the target text with the actual text, and outputting a score between 0 and 1. The scores are then averaged to give a benchmark score for each model. A score of 1 indicates a perfect match to the text in every instance.
 
-You can find the dataset at https://huggingface.co/datasets/pbevan11/image-gen-spelling-eval-data
+You can find the dataset at https://huggingface.co/datasets/pbevan11/image_gen_ocr_eval_data
 
 Since this metric solely looks at text within the generated images and not image quality as a whole, this metric should be used alongside other benchmarks such as those in https://karine-h.github.io/T2I-CompBench/.
 
