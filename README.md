@@ -3,7 +3,7 @@
 
 **Author:** Peter J. Bevan
 
-**Date:** 15/12/23
+**Date:** 17/12/23
 
 <a target="_blank" href="https://colab.research.google.com/github/pbevan1/image_gen_ocr_eval/blob/main/image_gen_ocr_evaluation.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
