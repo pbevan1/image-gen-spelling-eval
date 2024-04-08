@@ -69,7 +69,7 @@ The below arguments can be appended:
 ---
 *Table 1: Normalised Levenshtein similarity scores between instructed text and text present in image (as identified by OCR)*
 
-| Model | object | signage | natural | long | Overall |
+| Model | Object | Signage | Natural | Long | Overall |
 | --- | --- | --- | --- | --- | --- |
 | DALLE3 | 0.62 | 0.62 | 0.62 | 0.58 | 0.61 |
 | DeepFloydIF | 0.57 | 0.56 | 0.66 | 0.39 | 0.54 |
