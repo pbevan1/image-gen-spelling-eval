@@ -1,5 +1,5 @@
 
-# image-gen-spelling-eval
+# Image Gen Spelling Eval
 
 **Author:** Peter J. Bevan
 
