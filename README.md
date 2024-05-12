@@ -83,6 +83,7 @@ The below arguments can be appended:
 
 ![Image generation model spelling comparison](examples/model_comparison.png)
 
+---
 
 ```
 @misc{image-gen-ocr-eval,
